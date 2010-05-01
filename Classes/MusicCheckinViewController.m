@@ -74,8 +74,15 @@
 	//TODO: Add code to verify and cache twitter creds
 
 	NowPlayingViewController *nowPlaying = [[NowPlayingViewController alloc] initWithNibName:nil bundle:nil];
-		UINavigationController *mainNav = [[UINavigationController alloc]initWithRootViewController:nowPlaying];
-	[self presentModalViewController:nowPlaying animated:YES];
+	nowPlaying.title = @"Now Playing";
+	UINavigationController *mainNav = [[UINavigationController alloc]initWithRootViewController:nowPlaying];
+	
+	
+	UIWindow *window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
+	[window addSubview:[mainNav view]];
+	[window makeKeyAndVisible];
+
+	//[self presentModalViewController: mainNav.topViewController animated:YES];
 	NSLog(@"Now playing clicked");
 
 }

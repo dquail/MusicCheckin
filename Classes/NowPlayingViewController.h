@@ -7,10 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CheckinDetailsViewController.h"
 
 @interface NowPlayingViewController : UIViewController {
-
+	UILabel *artist;
+	UILabel *song;
+	UILabel *albumArt;
+	SongInfo *songinfo;
 }
+
+@property (readwrite, nonatomic, retain) SongInfo *songinfo;
+
+- (IBAction) handleCheckinButton:(id)sender;
 
 @end

@@ -17,7 +17,14 @@
 		28D7ACF80DDB3853001CB0EB /* MusicCheckinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MusicCheckinViewController.m */; };
 		C70A6ED5118CB0E000FA5E7C /* NowPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70A6ED3118CB0E000FA5E7C /* NowPlayingViewController.m */; };
 		C70A6ED6118CB0E000FA5E7C /* NowPlayingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C70A6ED4118CB0E000FA5E7C /* NowPlayingViewController.xib */; };
-		C70A6EE4118CB20500FA5E7C /* Champion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A6EE3118CB20500FA5E7C /* Champion.jpg */; };
+		C70A6F0B118CBBB000FA5E7C /* CheckinDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70A6F09118CBBB000FA5E7C /* CheckinDetailsViewController.m */; };
+		C70A6F0C118CBBB000FA5E7C /* CheckinDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C70A6F0A118CBBB000FA5E7C /* CheckinDetailsViewController.xib */; };
+		C70A6F89118CC68700FA5E7C /* Champion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C70A6F84118CC68700FA5E7C /* Champion.jpg */; };
+		C70A6F8A118CC68700FA5E7C /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = C70A6F85118CC68700FA5E7C /* facebook.png */; };
+		C70A6F8B118CC68700FA5E7C /* facebookbug.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C70A6F86118CC68700FA5E7C /* facebookbug.PNG */; };
+		C70A6F8C118CC68700FA5E7C /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = C70A6F87118CC68700FA5E7C /* twitter.png */; };
+		C70A6F8D118CC68700FA5E7C /* twitterbug.png in Resources */ = {isa = PBXBuildFile; fileRef = C70A6F88118CC68700FA5E7C /* twitterbug.png */; };
+		C70A6FA1118CC8AB00FA5E7C /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C70A6FA0118CC8AB00FA5E7C /* SongInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +44,16 @@
 		C70A6ED2118CB0E000FA5E7C /* NowPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NowPlayingViewController.h; sourceTree = "<group>"; };
 		C70A6ED3118CB0E000FA5E7C /* NowPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NowPlayingViewController.m; sourceTree = "<group>"; };
 		C70A6ED4118CB0E000FA5E7C /* NowPlayingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NowPlayingViewController.xib; path = Classes/NowPlayingViewController.xib; sourceTree = "<group>"; };
-		C70A6EE3118CB20500FA5E7C /* Champion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Champion.jpg; path = ../../Desktop/Champion.jpg; sourceTree = SOURCE_ROOT; };
+		C70A6F08118CBBB000FA5E7C /* CheckinDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckinDetailsViewController.h; sourceTree = "<group>"; };
+		C70A6F09118CBBB000FA5E7C /* CheckinDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckinDetailsViewController.m; sourceTree = "<group>"; };
+		C70A6F0A118CBBB000FA5E7C /* CheckinDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CheckinDetailsViewController.xib; path = Classes/CheckinDetailsViewController.xib; sourceTree = "<group>"; };
+		C70A6F84118CC68700FA5E7C /* Champion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Champion.jpg; path = images/Champion.jpg; sourceTree = "<group>"; };
+		C70A6F85118CC68700FA5E7C /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = images/facebook.png; sourceTree = "<group>"; };
+		C70A6F86118CC68700FA5E7C /* facebookbug.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebookbug.PNG; path = images/facebookbug.PNG; sourceTree = "<group>"; };
+		C70A6F87118CC68700FA5E7C /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = images/twitter.png; sourceTree = "<group>"; };
+		C70A6F88118CC68700FA5E7C /* twitterbug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitterbug.png; path = images/twitterbug.png; sourceTree = "<group>"; };
+		C70A6F9F118CC8AB00FA5E7C /* SongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongInfo.h; sourceTree = "<group>"; };
+		C70A6FA0118CC8AB00FA5E7C /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +73,16 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C70A6F08118CBBB000FA5E7C /* CheckinDetailsViewController.h */,
+				C70A6F09118CBBB000FA5E7C /* CheckinDetailsViewController.m */,
 				C70A6ED2118CB0E000FA5E7C /* NowPlayingViewController.h */,
 				C70A6ED3118CB0E000FA5E7C /* NowPlayingViewController.m */,
 				1D3623240D0F684500981E51 /* MusicCheckinAppDelegate.h */,
 				1D3623250D0F684500981E51 /* MusicCheckinAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* MusicCheckinViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* MusicCheckinViewController.m */,
+				C70A6F9F118CC8AB00FA5E7C /* SongInfo.h */,
+				C70A6FA0118CC8AB00FA5E7C /* SongInfo.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -99,6 +119,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C70A6F0A118CBBB000FA5E7C /* CheckinDetailsViewController.xib */,
 				C70A6EE1118CB1F600FA5E7C /* Images */,
 				C70A6ED4118CB0E000FA5E7C /* NowPlayingViewController.xib */,
 				2899E5210DE3E06400AC0155 /* MusicCheckinViewController.xib */,
@@ -121,7 +142,11 @@
 		C70A6EE1118CB1F600FA5E7C /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				C70A6EE3118CB20500FA5E7C /* Champion.jpg */,
+				C70A6F84118CC68700FA5E7C /* Champion.jpg */,
+				C70A6F85118CC68700FA5E7C /* facebook.png */,
+				C70A6F86118CC68700FA5E7C /* facebookbug.PNG */,
+				C70A6F87118CC68700FA5E7C /* twitter.png */,
+				C70A6F88118CC68700FA5E7C /* twitterbug.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -171,7 +196,12 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* MusicCheckinViewController.xib in Resources */,
 				C70A6ED6118CB0E000FA5E7C /* NowPlayingViewController.xib in Resources */,
-				C70A6EE4118CB20500FA5E7C /* Champion.jpg in Resources */,
+				C70A6F0C118CBBB000FA5E7C /* CheckinDetailsViewController.xib in Resources */,
+				C70A6F89118CC68700FA5E7C /* Champion.jpg in Resources */,
+				C70A6F8A118CC68700FA5E7C /* facebook.png in Resources */,
+				C70A6F8B118CC68700FA5E7C /* facebookbug.PNG in Resources */,
+				C70A6F8C118CC68700FA5E7C /* twitter.png in Resources */,
+				C70A6F8D118CC68700FA5E7C /* twitterbug.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +216,8 @@
 				1D3623260D0F684500981E51 /* MusicCheckinAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* MusicCheckinViewController.m in Sources */,
 				C70A6ED5118CB0E000FA5E7C /* NowPlayingViewController.m in Sources */,
+				C70A6F0B118CBBB000FA5E7C /* CheckinDetailsViewController.m in Sources */,
+				C70A6FA1118CC8AB00FA5E7C /* SongInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

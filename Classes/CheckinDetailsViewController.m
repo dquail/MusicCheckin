@@ -1,26 +1,25 @@
 //
-//  NowPlayingViewController.m
+//  CheckinDetailsViewController.m
 //  MusicCheckin
 //
 //  Created by David Quail on 5/1/10.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "NowPlayingViewController.h"
+#import "CheckinDetailsViewController.h"
 
 
-@implementation NowPlayingViewController
+@implementation CheckinDetailsViewController
 
-@synthesize songinfo;
-/*
+//@synthesize songinfo;
+
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil songinfo: (SongInfo *) songinfo {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
+		self.songinfo = songinfo;
     }
     return self;
 }
-*/
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -53,12 +52,6 @@
 
 - (void)dealloc {
     [super dealloc];
-}
-
-- (IBAction) handleCheckinButton:(id)sender{
-	CheckinDetailsViewController *checkInDetails = [[CheckinDetailsViewController alloc] initWithNibName:nil bundle:nil];
-//	CheckinDetailsViewController *checkInDetails = [[CheckinDetailsViewController alloc] initWithNibName:nil bundle:nil songinfo:nil];
-	[self.navigationController pushViewController:checkInDetails animated:YES];	
 }
 
 
