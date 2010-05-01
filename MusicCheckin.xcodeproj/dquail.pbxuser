@@ -1,0 +1,182 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* MusicCheckinAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 462}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 619}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* MusicCheckin */ = {
+		activeExec = 0;
+		executables = (
+			C70A6E82118CA6C800FA5E7C /* MusicCheckin */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* MusicCheckinViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {565, 462}}";
+			sepNavSelRange = "{217, 0}";
+			sepNavVisRange = "{0, 550}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* MusicCheckinViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {788, 1183}}";
+			sepNavSelRange = "{1854, 0}";
+			sepNavVisRange = "{1404, 965}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C70A6E82118CA6C800FA5E7C /* MusicCheckin */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MusicCheckin */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* MusicCheckin */,
+		);
+		codeSenseManager = C70A6E9B118CA6D600FA5E7C /* Code sense */;
+		executables = (
+			C70A6E82118CA6C800FA5E7C /* MusicCheckin */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					272,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 294430409;
+			PBXWorkspaceStateSaveDate = 294430409;
+		};
+		perUserProjectItems = {
+			C70A6EDA118CB0FE00FA5E7C /* PBXTextBookmark */ = C70A6EDA118CB0FE00FA5E7C /* PBXTextBookmark */;
+			C70A6EEF118CB35700FA5E7C /* PBXTextBookmark */ = C70A6EEF118CB35700FA5E7C /* PBXTextBookmark */;
+			C70A6EF0118CB35700FA5E7C /* PBXBookmark */ = C70A6EF0118CB35700FA5E7C /* PBXBookmark */;
+			C70A6EF1118CB35700FA5E7C /* PBXTextBookmark */ = C70A6EF1118CB35700FA5E7C /* PBXTextBookmark */;
+			C70A6EF2118CB35700FA5E7C /* PBXTextBookmark */ = C70A6EF2118CB35700FA5E7C /* PBXTextBookmark */;
+			C70A6EF6118CB58400FA5E7C /* PBXTextBookmark */ = C70A6EF6118CB58400FA5E7C /* PBXTextBookmark */;
+		};
+		sourceControlManager = C70A6E9A118CA6D600FA5E7C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C70A6E82118CA6C800FA5E7C /* MusicCheckin */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MusicCheckin;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C70A6E9A118CA6D600FA5E7C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C70A6E9B118CA6D600FA5E7C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C70A6ED2118CB0E000FA5E7C /* NowPlayingViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {689, 412}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 247}";
+		};
+	};
+	C70A6EDA118CB0FE00FA5E7C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C70A6ED2118CB0E000FA5E7C /* NowPlayingViewController.h */;
+		name = "NowPlayingViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 247;
+		vrLoc = 0;
+	};
+	C70A6EEF118CB35700FA5E7C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MusicCheckinAppDelegate.m */;
+		name = "MusicCheckinAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 619;
+		vrLoc = 0;
+	};
+	C70A6EF0118CB35700FA5E7C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C70A6EE3118CB20500FA5E7C /* Champion.jpg */;
+	};
+	C70A6EF1118CB35700FA5E7C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* MusicCheckinViewController.h */;
+		name = "MusicCheckinViewController.h: 10";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 550;
+		vrLoc = 0;
+	};
+	C70A6EF2118CB35700FA5E7C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MusicCheckinViewController.m */;
+		name = "MusicCheckinViewController.m: 1";
+		rLen = 1;
+		rLoc = 2;
+		rType = 0;
+		vrLen = 916;
+		vrLoc = 0;
+	};
+	C70A6EF6118CB58400FA5E7C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MusicCheckinViewController.m */;
+		name = "MusicCheckinViewController.m: 75";
+		rLen = 0;
+		rLoc = 1854;
+		rType = 0;
+		vrLen = 965;
+		vrLoc = 1404;
+	};
+}

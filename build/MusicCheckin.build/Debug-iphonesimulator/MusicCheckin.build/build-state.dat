@@ -1,0 +1,325 @@
+TMusicCheckin
+v7
+r0
+t294433622.730622
+cCheck dependencies
+cProcessInfoPlistFile /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/Info.plist MusicCheckin-Info.plist
+cCompileXIB /Users/dquail/dev/MusicCheckin/MainWindow.xib
+cCompileXIB /Users/dquail/dev/MusicCheckin/MusicCheckinViewController.xib
+cCompileXIB /Users/dquail/dev/MusicCheckin/Classes/NowPlayingViewController.xib
+cCpResource build/Debug-iphonesimulator/MusicCheckin.app/Champion.jpg ../../Desktop/Champion.jpg
+cProcessPCH /var/folders/jn/jncVayK6Fuaprr8SodczYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicCheckin_Prefix-gdhesnmhvozhjkdcbdkruinkqzpg/MusicCheckin_Prefix.pch.gch MusicCheckin_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/main.o /Users/dquail/dev/MusicCheckin/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/MusicCheckinAppDelegate.o /Users/dquail/dev/MusicCheckin/Classes/MusicCheckinAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/MusicCheckinViewController.o /Users/dquail/dev/MusicCheckin/Classes/MusicCheckinViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/NowPlayingViewController.o /Users/dquail/dev/MusicCheckin/Classes/NowPlayingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MusicCheckin normal i386
+cGenerateDSYMFile /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app.dSYM /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MusicCheckin
+cTouch /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004BDBA72F0000000000000110
+t1272686383
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BC6B28900000000002797F0
+t1271313033
+s2594800
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BC6B29800000000002772A0
+t1271313048
+s2585248
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BC6B28C0000000000001466
+t1271313036
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BC6CA8F00000000000009CD
+t1271319183
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BC6CB630000000002435FA0
+t1271319395
+s37969824
+
+N/Users/dquail/dev/MusicCheckin/../../Desktop/Champion.jpg
+c000000004BDC7A3B000000000000439D
+t1272740411
+s17309
+
+N/Users/dquail/dev/MusicCheckin/Classes/MusicCheckinAppDelegate.h
+c000000004BDC6F4800000000000001FB
+t1272737608
+s507
+i<UIKit/UIKit.h>
+
+N/Users/dquail/dev/MusicCheckin/Classes/MusicCheckinAppDelegate.m
+c000000004BDC6F48000000000000026B
+t1272737608
+s619
+i"MusicCheckinAppDelegate.h"
+i"MusicCheckinViewController.h"
+
+N/Users/dquail/dev/MusicCheckin/Classes/MusicCheckinViewController.h
+c000000004BDC7B900000000000000226
+t1272740752
+s550
+i<UIKit/UIKit.h>
+i"NowPlayingViewController.h"
+
+N/Users/dquail/dev/MusicCheckin/Classes/MusicCheckinViewController.m
+c000000004BDC7DFF0000000000000941
+t1272741375
+s2369
+i"MusicCheckinViewController.h"
+
+N/Users/dquail/dev/MusicCheckin/Classes/NowPlayingViewController.h
+c000000004BDC796000000000000000F7
+t1272740192
+s247
+i<UIKit/UIKit.h>
+
+N/Users/dquail/dev/MusicCheckin/Classes/NowPlayingViewController.m
+c000000004BDC796000000000000005B7
+t1272740192
+s1463
+i"NowPlayingViewController.h"
+
+N/Users/dquail/dev/MusicCheckin/Classes/NowPlayingViewController.xib
+c000000004BDC7B050000000000005406
+t1272740613
+s21510
+
+N/Users/dquail/dev/MusicCheckin/MainWindow.xib
+c000000004BDC6F480000000000004D4C
+t1272737608
+s19788
+
+N/Users/dquail/dev/MusicCheckin/MusicCheckinViewController.xib
+c000000004BDC73DE0000000000006A9C
+t1272738782
+s27292
+
+N/Users/dquail/dev/MusicCheckin/MusicCheckin_Prefix.pch
+c000000004BDC6F4800000000000000C1
+t1272737608
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app
+t1272740822
+s306
+
+N/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app.dSYM
+t1272740822
+s102
+
+N/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/Champion.jpg
+t1272740822
+s17309
+
+N/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/Info.plist
+t1272737617
+s611
+
+N/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MainWindow.nib
+t1272737618
+s1195
+
+N/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MusicCheckin
+t1272740822
+s21600
+
+N/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MusicCheckinViewController.nib
+t1272738791
+s2499
+
+N/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/NowPlayingViewController.nib
+t1272740822
+s1983
+
+N/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/PkgInfo
+t1272737617
+s8
+
+N/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/MusicCheckin.LinkFileList
+c000000004BDC7BD5000000000000022D
+t1272740821
+s557
+
+N/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/MusicCheckinAppDelegate.o
+t1272740822
+s43952
+
+N/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/MusicCheckinViewController.o
+t1272740822
+s40232
+
+N/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/NowPlayingViewController.o
+t1272740822
+s34672
+
+N/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/main.o
+t1272737620
+s5928
+
+N/Users/dquail/dev/MusicCheckin/main.m
+c000000004BDC6F48000000000000016C
+t1272737608
+s364
+i<UIKit/UIKit.h>
+
+N/var/folders/jn/jncVayK6Fuaprr8SodczYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicCheckin_Prefix-gdhesnmhvozhjkdcbdkruinkqzpg/MusicCheckin_Prefix.pch.gch
+t1272737619
+s15170576
+
+NMusicCheckin-Info.plist
+c000000004BDC6F48000000000000038D
+t1272737608
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies294433621#294433621#0(0"0(0#1#0"4300725088#0"0#
+
+CCompileC build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/MusicCheckinAppDelegate.o /Users/dquail/dev/MusicCheckin/Classes/MusicCheckinAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s294433622.508293
+e294433622.596404
+r1
+xCompileC
+xbuild/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/MusicCheckinAppDelegate.o
+x/Users/dquail/dev/MusicCheckin/Classes/MusicCheckinAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/dquail/dev/MusicCheckin/Classes/MusicCheckinAppDelegate.m294433622#294433622#0(0"0(0#0#64"/Users/dquail/dev/MusicCheckin/Classes/MusicCheckinAppDelegate.m4300725088#1915"    cd /Users/dquail/dev/MusicCheckin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-generated-files.hmap -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-own-target-headers.hmap -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-all-target-headers.hmap -iquote /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-project-headers.hmap -F/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator -I/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/include -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/DerivedSources/i386 -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/DerivedSources -include /var/folders/jn/jncVayK6Fuaprr8SodczYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicCheckin_Prefix-gdhesnmhvozhjkdcbdkruinkqzpg/MusicCheckin_Prefix.pch -c /Users/dquail/dev/MusicCheckin/Classes/MusicCheckinAppDelegate.m -o /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/MusicCheckinAppDelegate.o0#
+
+CCompileC build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/MusicCheckinViewController.o /Users/dquail/dev/MusicCheckin/Classes/MusicCheckinViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s294433622.509363
+e294433622.684054
+r1
+xCompileC
+xbuild/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/MusicCheckinViewController.o
+x/Users/dquail/dev/MusicCheckin/Classes/MusicCheckinViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/dquail/dev/MusicCheckin/Classes/MusicCheckinViewController.m294433622#294433622#0(0"0(0#0#67"/Users/dquail/dev/MusicCheckin/Classes/MusicCheckinViewController.m4300725088#1921"    cd /Users/dquail/dev/MusicCheckin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-generated-files.hmap -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-own-target-headers.hmap -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-all-target-headers.hmap -iquote /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-project-headers.hmap -F/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator -I/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/include -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/DerivedSources/i386 -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/DerivedSources -include /var/folders/jn/jncVayK6Fuaprr8SodczYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicCheckin_Prefix-gdhesnmhvozhjkdcbdkruinkqzpg/MusicCheckin_Prefix.pch -c /Users/dquail/dev/MusicCheckin/Classes/MusicCheckinViewController.m -o /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/MusicCheckinViewController.o0#
+
+CCompileC build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/NowPlayingViewController.o /Users/dquail/dev/MusicCheckin/Classes/NowPlayingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s294433622.596510
+e294433622.671345
+r1
+xCompileC
+xbuild/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/NowPlayingViewController.o
+x/Users/dquail/dev/MusicCheckin/Classes/NowPlayingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/dquail/dev/MusicCheckin/Classes/NowPlayingViewController.m294433622#294433622#0(0"0(0#0#65"/Users/dquail/dev/MusicCheckin/Classes/NowPlayingViewController.m4300725088#1917"    cd /Users/dquail/dev/MusicCheckin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-generated-files.hmap -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-own-target-headers.hmap -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-all-target-headers.hmap -iquote /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-project-headers.hmap -F/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator -I/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/include -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/DerivedSources/i386 -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/DerivedSources -include /var/folders/jn/jncVayK6Fuaprr8SodczYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicCheckin_Prefix-gdhesnmhvozhjkdcbdkruinkqzpg/MusicCheckin_Prefix.pch -c /Users/dquail/dev/MusicCheckin/Classes/NowPlayingViewController.m -o /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/NowPlayingViewController.o0#
+
+CCompileC build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/main.o /Users/dquail/dev/MusicCheckin/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s294430419.912449
+e294430420.104617
+r1
+xCompileC
+xbuild/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/main.o
+x/Users/dquail/dev/MusicCheckin/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/dquail/dev/MusicCheckin/main.m294430419#294430420#0(0"0(0#0#37"/Users/dquail/dev/MusicCheckin/main.m4300725088#1869"    cd /Users/dquail/dev/MusicCheckin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-generated-files.hmap -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-own-target-headers.hmap -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-all-target-headers.hmap -iquote /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-project-headers.hmap -F/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator -I/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/include -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/DerivedSources/i386 -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/DerivedSources -include /var/folders/jn/jncVayK6Fuaprr8SodczYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicCheckin_Prefix-gdhesnmhvozhjkdcbdkruinkqzpg/MusicCheckin_Prefix.pch -c /Users/dquail/dev/MusicCheckin/main.m -o /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/dquail/dev/MusicCheckin/Classes/NowPlayingViewController.xib
+s294433621.962396
+e294433622.507987
+r1
+xCompileXIB
+x/Users/dquail/dev/MusicCheckin/Classes/NowPlayingViewController.xib
+lSLF07#2@47"CompileXIB Classes/NowPlayingViewController.xib294433621#294433622#0(0"0(0#0#67"/Users/dquail/dev/MusicCheckin/Classes/NowPlayingViewController.xib4300725088#497"    cd /Users/dquail/dev/MusicCheckin    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/NowPlayingViewController.nib /Users/dquail/dev/MusicCheckin/Classes/NowPlayingViewController.xib0#
+
+CCompileXIB /Users/dquail/dev/MusicCheckin/MainWindow.xib
+s294430417.404592
+e294430418.261135
+r1
+xCompileXIB
+x/Users/dquail/dev/MusicCheckin/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib294430417#294430418#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#45"/Users/dquail/dev/MusicCheckin/MainWindow.xib4300725088#461"    cd /Users/dquail/dev/MusicCheckin    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MainWindow.nib /Users/dquail/dev/MusicCheckin/MainWindow.xib0#
+
+CCompileXIB /Users/dquail/dev/MusicCheckin/MusicCheckinViewController.xib
+s294431591.132468
+e294431591.685249
+r1
+xCompileXIB
+x/Users/dquail/dev/MusicCheckin/MusicCheckinViewController.xib
+lSLF07#2@41"CompileXIB MusicCheckinViewController.xib294431591#294431591#0(0"0(0#0#61"/Users/dquail/dev/MusicCheckin/MusicCheckinViewController.xib4300725088#493"    cd /Users/dquail/dev/MusicCheckin    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MusicCheckinViewController.nib /Users/dquail/dev/MusicCheckin/MusicCheckinViewController.xib0#
+
+CCpResource build/Debug-iphonesimulator/MusicCheckin.app/Champion.jpg ../../Desktop/Champion.jpg
+s294433621.971206
+e294433622.004434
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MusicCheckin.app/Champion.jpg
+x../../Desktop/Champion.jpg
+lSLF07#2@31"Copy ../../Desktop/Champion.jpg294433621#294433622#0(0"0(0#0#57"/Users/dquail/dev/MusicCheckin/../../Desktop/Champion.jpg4300725088#451"    cd /Users/dquail/dev/MusicCheckin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/dquail/dev/MusicCheckin/../../Desktop/Champion.jpg /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app0#
+
+CGenerateDSYMFile /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app.dSYM /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MusicCheckin
+s294433622.708705
+e294433622.727361
+r1
+xGenerateDSYMFile
+x/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app.dSYM
+x/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MusicCheckin
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/MusicCheckin.app.dSYM build/Debug-iphonesimulator/MusicCheckin.app/MusicCheckin294433622#294433622#0(0"0(0#0#88"/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MusicCheckin4300725088#374"    cd /Users/dquail/dev/MusicCheckin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MusicCheckin -o /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app.dSYM0#
+
+CLd /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MusicCheckin normal i386
+s294433622.684145
+e294433622.708600
+r1
+xLd
+x/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MusicCheckin
+xnormal
+xi386
+lSLF07#2@93"Link /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MusicCheckin294433622#294433622#0(0"0(0#0#0"4300725088#847"    cd /Users/dquail/dev/MusicCheckin    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator -F/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator -filelist /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/Objects-normal/i386/MusicCheckin.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/MusicCheckin0#
+
+CProcessInfoPlistFile /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/Info.plist MusicCheckin-Info.plist
+s294430417.202123
+e294430417.404481
+r1
+xProcessInfoPlistFile
+x/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/Info.plist
+xMusicCheckin-Info.plist
+lSLF07#2@31"Process MusicCheckin-Info.plist294430417#294430417#0(0"0(0#0#54"/Users/dquail/dev/MusicCheckin/MusicCheckin-Info.plist29555366482477168#470"    cd /Users/dquail/dev/MusicCheckin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MusicCheckin-Info.plist -genpkginfo /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app/Info.plist0#
+
+CProcessPCH /var/folders/jn/jncVayK6Fuaprr8SodczYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicCheckin_Prefix-gdhesnmhvozhjkdcbdkruinkqzpg/MusicCheckin_Prefix.pch.gch MusicCheckin_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s294430418.261469
+e294430419.912244
+r1
+xProcessPCH
+x/var/folders/jn/jncVayK6Fuaprr8SodczYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicCheckin_Prefix-gdhesnmhvozhjkdcbdkruinkqzpg/MusicCheckin_Prefix.pch.gch
+xMusicCheckin_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile MusicCheckin_Prefix.pch294430418#294430419#0(0"0(0#0#54"/Users/dquail/dev/MusicCheckin/MusicCheckin_Prefix.pch4300725088#1764"    cd /Users/dquail/dev/MusicCheckin    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-generated-files.hmap -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-own-target-headers.hmap -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-all-target-headers.hmap -iquote /Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/MusicCheckin-project-headers.hmap -F/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator -I/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/include -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/DerivedSources/i386 -I/Users/dquail/dev/MusicCheckin/build/MusicCheckin.build/Debug-iphonesimulator/MusicCheckin.build/DerivedSources -c /Users/dquail/dev/MusicCheckin/MusicCheckin_Prefix.pch -o /var/folders/jn/jncVayK6Fuaprr8SodczYk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicCheckin_Prefix-gdhesnmhvozhjkdcbdkruinkqzpg/MusicCheckin_Prefix.pch.gch0#
+
+CTouch /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app
+s294433622.727451
+e294433622.730580
+r1
+xTouch
+x/Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app
+lSLF07#2@81"Touch /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app294433622#294433622#0(0"0(0#0#0"4300725088#267"    cd /Users/dquail/dev/MusicCheckin    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dquail/dev/MusicCheckin/build/Debug-iphonesimulator/MusicCheckin.app0#
+

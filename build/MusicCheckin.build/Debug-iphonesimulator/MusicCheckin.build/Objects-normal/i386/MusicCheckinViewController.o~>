@@ -1,0 +1,2 @@
+/Users/dquail/dev/MusicCheckin/Classes/MusicCheckinViewController.m: In function '-[MusicCheckinViewController handleAddButton:]':
+/Users/dquail/dev/MusicCheckin/Classes/MusicCheckinViewController.m:77: warning: unused variable 'mainNav'
