@@ -56,8 +56,12 @@
 }
 
 - (IBAction) handleCheckinButton:(id)sender{
-	CheckinDetailsViewController *checkInDetails = [[CheckinDetailsViewController alloc] initWithNibName:nil bundle:nil];
-//	CheckinDetailsViewController *checkInDetails = [[CheckinDetailsViewController alloc] initWithNibName:nil bundle:nil songinfo:nil];
+	//CheckinDetailsViewController *checkInDetails = [[CheckinDetailsViewController alloc] initWithNibName:nil bundle:nil];
+	SongInfo *info = [[SongInfo alloc] init];
+	info.title = @"Chill em all";
+	info.album = @"Champion";
+	info.albumArt = nil;
+	CheckinDetailsViewController *checkInDetails = [[CheckinDetailsViewController alloc] initWithNibName:nil bundle:nil songinfo:songinfo];
 	[self.navigationController pushViewController:checkInDetails animated:YES];	
 }
 
