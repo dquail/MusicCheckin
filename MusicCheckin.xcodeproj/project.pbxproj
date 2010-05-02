@@ -26,6 +26,11 @@
 		C70A7364118D1DEC00FA5E7C /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = C70A735F118D1DEC00FA5E7C /* twitter.png */; };
 		C70A7365118D1DEC00FA5E7C /* twitterbug.png in Resources */ = {isa = PBXBuildFile; fileRef = C70A7360118D1DEC00FA5E7C /* twitterbug.png */; };
 		C75AABD4118D31F900DEBC64 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75AABD3118D31F900DEBC64 /* MediaPlayer.framework */; };
+		C77473FD118D478F0055BB53 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77473FC118D478F0055BB53 /* CoreLocation.framework */; };
+		C7747404118D49740055BB53 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7747400118D49740055BB53 /* appicon.png */; };
+		C7747405118D49740055BB53 /* checkin-button-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C7747401118D49740055BB53 /* checkin-button-iphone.png */; };
+		C7747406118D49740055BB53 /* iphonesplash.png in Resources */ = {isa = PBXBuildFile; fileRef = C7747402118D49740055BB53 /* iphonesplash.png */; };
+		C7747407118D49740055BB53 /* nowplayingiphonev2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7747403118D49740055BB53 /* nowplayingiphonev2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +63,11 @@
 		C70A735F118D1DEC00FA5E7C /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = images/twitter.png; sourceTree = "<group>"; };
 		C70A7360118D1DEC00FA5E7C /* twitterbug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitterbug.png; path = images/twitterbug.png; sourceTree = "<group>"; };
 		C75AABD3118D31F900DEBC64 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C77473FC118D478F0055BB53 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C7747400118D49740055BB53 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon.png; path = images/appicon.png; sourceTree = "<group>"; };
+		C7747401118D49740055BB53 /* checkin-button-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkin-button-iphone.png"; path = "images/checkin-button-iphone.png"; sourceTree = "<group>"; };
+		C7747402118D49740055BB53 /* iphonesplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphonesplash.png; path = images/iphonesplash.png; sourceTree = "<group>"; };
+		C7747403118D49740055BB53 /* nowplayingiphonev2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nowplayingiphonev2.png; path = images/nowplayingiphonev2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				C75AABD4118D31F900DEBC64 /* MediaPlayer.framework in Frameworks */,
+				C77473FD118D478F0055BB53 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +154,7 @@
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				C75AABD3118D31F900DEBC64 /* MediaPlayer.framework */,
+				C77473FC118D478F0055BB53 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -150,6 +162,10 @@
 		C70A735B118D1DD900FA5E7C /* images */ = {
 			isa = PBXGroup;
 			children = (
+				C7747400118D49740055BB53 /* appicon.png */,
+				C7747401118D49740055BB53 /* checkin-button-iphone.png */,
+				C7747402118D49740055BB53 /* iphonesplash.png */,
+				C7747403118D49740055BB53 /* nowplayingiphonev2.png */,
 				C70A735C118D1DEC00FA5E7C /* Champion.jpg */,
 				C70A735D118D1DEC00FA5E7C /* facebook.png */,
 				C70A735E118D1DEC00FA5E7C /* facebookbug.PNG */,
@@ -209,6 +225,10 @@
 				C70A7363118D1DEC00FA5E7C /* facebookbug.PNG in Resources */,
 				C70A7364118D1DEC00FA5E7C /* twitter.png in Resources */,
 				C70A7365118D1DEC00FA5E7C /* twitterbug.png in Resources */,
+				C7747404118D49740055BB53 /* appicon.png in Resources */,
+				C7747405118D49740055BB53 /* checkin-button-iphone.png in Resources */,
+				C7747406118D49740055BB53 /* iphonesplash.png in Resources */,
+				C7747407118D49740055BB53 /* nowplayingiphonev2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
