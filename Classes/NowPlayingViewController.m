@@ -7,27 +7,35 @@
 //
 
 #import "NowPlayingViewController.h"
-
+#import <MediaPlayer/MediaPlayer.h>
 
 @implementation NowPlayingViewController
 
 @synthesize songinfo;
-/*
+@synthesize musicPlayer;
+
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
         // Custom initialization
+		self.musicPlayer = [MPMusicPlayerController iPodMusicPlayer];
     }
     return self;
 }
-*/
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
-    [super viewDidLoad];
+	[super viewDidLoad];
+
+	MPMediaItem *currentItem = self.musicPlayer.nowPlayingItem;
+
+	self.songinfo = [[SongInfo alloc] init];
+	self.songinfo.title = [currentItem valueForProperty:MPMediaItemPropertyTitle];
+	self.songinfo.album = [currentItem valueForProperty:MPMediaItemPropertyAlbumTitle];
+
+	self.title = @"Now Playing";
 }
-*/
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -57,11 +65,11 @@
 
 - (IBAction) handleCheckinButton:(id)sender{
 	//CheckinDetailsViewController *checkInDetails = [[CheckinDetailsViewController alloc] initWithNibName:nil bundle:nil];
-	SongInfo *info = [[SongInfo alloc] init];
-	info.title = @"Chill em all";
-	info.album = @"Champion";
-	info.albumArt = nil;
-	CheckinDetailsViewController *checkInDetails = [[CheckinDetailsViewController alloc] initWithNibName:nil bundle:nil songinfo:songinfo];
+	
+	//Testing the nsdefaults
+	//TwitterUser *tUser = [TwitterUser fromDefaults];
+	//NSLog(@"Returned user from defaults %@", tUser.username);
+	CheckinDetailsViewController *checkInDetails = [[CheckinDetailsViewController alloc] initWithNibName:nil bundle:nil songinfo:self.songinfo];
 	[self.navigationController pushViewController:checkInDetails animated:YES];	
 }
 

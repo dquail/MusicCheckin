@@ -7,16 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class MusicCheckinViewController;
+#import "TwitterUser.h"
+#import "AccountViewController.h"
+#import "NowPlayingViewController.h"
 
 @interface MusicCheckinAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
-    MusicCheckinViewController *viewController;
+	UIWindow *window;
+	UINavigationController *mainNavigation;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet MusicCheckinViewController *viewController;
+@property (nonatomic, retain) UINavigationController *mainNavigation;
 
 @end
 

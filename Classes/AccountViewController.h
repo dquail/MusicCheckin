@@ -1,16 +1,16 @@
 //
-//  MusicCheckinViewController.h
+//  AccountViewController.h
 //  MusicCheckin
 //
 //  Created by David Quail on 5/1/10.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "NowPlayingViewController.h"
 #import "TwitterUser.h"
 
-@interface MusicCheckinViewController : UIViewController {
+@interface AccountViewController : UIViewController {
 	UITextField *twitterUsername;
 	UITextField *twitterPassword;
 }
@@ -19,4 +19,3 @@
 
 - (IBAction) handleAddButton:(id)sender;
 @end
-

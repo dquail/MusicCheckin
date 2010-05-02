@@ -14,9 +14,9 @@
 @synthesize songinfo;
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil songinfo: (SongInfo *) songinfo {
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil songinfo: (SongInfo *) info {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-		self.songinfo = songinfo;
+		self.songinfo = info;
     }
     return self;
 }
