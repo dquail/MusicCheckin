@@ -25,12 +25,23 @@
 		C70A7363118D1DEC00FA5E7C /* facebookbug.PNG in Resources */ = {isa = PBXBuildFile; fileRef = C70A735E118D1DEC00FA5E7C /* facebookbug.PNG */; };
 		C70A7364118D1DEC00FA5E7C /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = C70A735F118D1DEC00FA5E7C /* twitter.png */; };
 		C70A7365118D1DEC00FA5E7C /* twitterbug.png in Resources */ = {isa = PBXBuildFile; fileRef = C70A7360118D1DEC00FA5E7C /* twitterbug.png */; };
+		C71654EC118DFEDA00672DF7 /* WorldPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71654EA118DFEDA00672DF7 /* WorldPlayingViewController.m */; };
+		C71654ED118DFEDA00672DF7 /* WorldPlayingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C71654EB118DFEDA00672DF7 /* WorldPlayingViewController.xib */; };
+		C71655BE118E222000672DF7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C71655BC118E222000672DF7 /* Default.png */; };
+		C71655BF118E222000672DF7 /* mainlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C71655BD118E222000672DF7 /* mainlogo.png */; };
+		C71655C4118E26E000672DF7 /* mainicon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C71655C3118E26E000672DF7 /* mainicon.jpg */; };
+		C71655F8118E2D8E00672DF7 /* world.png in Resources */ = {isa = PBXBuildFile; fileRef = C71655F7118E2D8E00672DF7 /* world.png */; };
+		C7165626118E318500672DF7 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = C7165625118E318500672DF7 /* star.png */; };
+		C716562A118E32F900672DF7 /* music_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7165629118E32F900672DF7 /* music_icon.png */; };
+		C7165637118E34FF00672DF7 /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = C7165636118E34FF00672DF7 /* account.png */; };
+		C716563D118E365E00672DF7 /* Globe-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C716563C118E365E00672DF7 /* Globe-Icon.png */; };
+		C71656A1118E407100672DF7 /* ActivityAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = C71656A0118E407100672DF7 /* ActivityAlert.m */; };
+		C71656D3118E46DC00672DF7 /* loading_image.png in Resources */ = {isa = PBXBuildFile; fileRef = C71656D2118E46DC00672DF7 /* loading_image.png */; };
 		C75AABD4118D31F900DEBC64 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75AABD3118D31F900DEBC64 /* MediaPlayer.framework */; };
 		C77473FD118D478F0055BB53 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77473FC118D478F0055BB53 /* CoreLocation.framework */; };
-		C7747404118D49740055BB53 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7747400118D49740055BB53 /* appicon.png */; };
 		C7747405118D49740055BB53 /* checkin-button-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C7747401118D49740055BB53 /* checkin-button-iphone.png */; };
-		C7747406118D49740055BB53 /* iphonesplash.png in Resources */ = {isa = PBXBuildFile; fileRef = C7747402118D49740055BB53 /* iphonesplash.png */; };
 		C7747407118D49740055BB53 /* nowplayingiphonev2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7747403118D49740055BB53 /* nowplayingiphonev2.png */; };
+		C7C8F030118D4B50002B79CB /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C8F02F118D4B50002B79CB /* appicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,12 +73,25 @@
 		C70A735E118D1DEC00FA5E7C /* facebookbug.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebookbug.PNG; path = images/facebookbug.PNG; sourceTree = "<group>"; };
 		C70A735F118D1DEC00FA5E7C /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = images/twitter.png; sourceTree = "<group>"; };
 		C70A7360118D1DEC00FA5E7C /* twitterbug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitterbug.png; path = images/twitterbug.png; sourceTree = "<group>"; };
+		C71654E9118DFEDA00672DF7 /* WorldPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldPlayingViewController.h; sourceTree = "<group>"; };
+		C71654EA118DFEDA00672DF7 /* WorldPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldPlayingViewController.m; sourceTree = "<group>"; };
+		C71654EB118DFEDA00672DF7 /* WorldPlayingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorldPlayingViewController.xib; sourceTree = "<group>"; };
+		C71655BC118E222000672DF7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = images/Default.png; sourceTree = "<group>"; };
+		C71655BD118E222000672DF7 /* mainlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainlogo.png; path = images/mainlogo.png; sourceTree = "<group>"; };
+		C71655C3118E26E000672DF7 /* mainicon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mainicon.jpg; path = images/mainicon.jpg; sourceTree = "<group>"; };
+		C71655F7118E2D8E00672DF7 /* world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = world.png; path = images/world.png; sourceTree = "<group>"; };
+		C7165625118E318500672DF7 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = images/star.png; sourceTree = "<group>"; };
+		C7165629118E32F900672DF7 /* music_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = music_icon.png; path = images/music_icon.png; sourceTree = "<group>"; };
+		C7165636118E34FF00672DF7 /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = account.png; path = images/account.png; sourceTree = "<group>"; };
+		C716563C118E365E00672DF7 /* Globe-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Globe-Icon.png"; path = "images/Globe-Icon.png"; sourceTree = "<group>"; };
+		C716569F118E407100672DF7 /* ActivityAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityAlert.h; sourceTree = "<group>"; };
+		C71656A0118E407100672DF7 /* ActivityAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityAlert.m; sourceTree = "<group>"; };
+		C71656D2118E46DC00672DF7 /* loading_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading_image.png; path = images/loading_image.png; sourceTree = "<group>"; };
 		C75AABD3118D31F900DEBC64 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		C77473FC118D478F0055BB53 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		C7747400118D49740055BB53 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon.png; path = images/appicon.png; sourceTree = "<group>"; };
 		C7747401118D49740055BB53 /* checkin-button-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkin-button-iphone.png"; path = "images/checkin-button-iphone.png"; sourceTree = "<group>"; };
-		C7747402118D49740055BB53 /* iphonesplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphonesplash.png; path = images/iphonesplash.png; sourceTree = "<group>"; };
 		C7747403118D49740055BB53 /* nowplayingiphonev2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nowplayingiphonev2.png; path = images/nowplayingiphonev2.png; sourceTree = "<group>"; };
+		C7C8F02F118D4B50002B79CB /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +113,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C716569F118E407100672DF7 /* ActivityAlert.h */,
+				C71656A0118E407100672DF7 /* ActivityAlert.m */,
 				C70A7353118D1DCD00FA5E7C /* CheckinDetailsViewController.h */,
 				C70A7354118D1DCD00FA5E7C /* CheckinDetailsViewController.m */,
 				C70A7355118D1DCD00FA5E7C /* CheckinDetailsViewController.xib */,
@@ -104,6 +130,9 @@
 				C70A7332118D17F700FA5E7C /* TwitterUser.m */,
 				1D3623240D0F684500981E51 /* MusicCheckinAppDelegate.h */,
 				1D3623250D0F684500981E51 /* MusicCheckinAppDelegate.m */,
+				C71654E9118DFEDA00672DF7 /* WorldPlayingViewController.h */,
+				C71654EA118DFEDA00672DF7 /* WorldPlayingViewController.m */,
+				C71654EB118DFEDA00672DF7 /* WorldPlayingViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -162,9 +191,17 @@
 		C70A735B118D1DD900FA5E7C /* images */ = {
 			isa = PBXGroup;
 			children = (
-				C7747400118D49740055BB53 /* appicon.png */,
+				C71656D2118E46DC00672DF7 /* loading_image.png */,
+				C716563C118E365E00672DF7 /* Globe-Icon.png */,
+				C7165636118E34FF00672DF7 /* account.png */,
+				C7165629118E32F900672DF7 /* music_icon.png */,
+				C7165625118E318500672DF7 /* star.png */,
+				C71655F7118E2D8E00672DF7 /* world.png */,
+				C71655C3118E26E000672DF7 /* mainicon.jpg */,
+				C71655BC118E222000672DF7 /* Default.png */,
+				C71655BD118E222000672DF7 /* mainlogo.png */,
+				C7C8F02F118D4B50002B79CB /* appicon.png */,
 				C7747401118D49740055BB53 /* checkin-button-iphone.png */,
-				C7747402118D49740055BB53 /* iphonesplash.png */,
 				C7747403118D49740055BB53 /* nowplayingiphonev2.png */,
 				C70A735C118D1DEC00FA5E7C /* Champion.jpg */,
 				C70A735D118D1DEC00FA5E7C /* facebook.png */,
@@ -225,10 +262,19 @@
 				C70A7363118D1DEC00FA5E7C /* facebookbug.PNG in Resources */,
 				C70A7364118D1DEC00FA5E7C /* twitter.png in Resources */,
 				C70A7365118D1DEC00FA5E7C /* twitterbug.png in Resources */,
-				C7747404118D49740055BB53 /* appicon.png in Resources */,
 				C7747405118D49740055BB53 /* checkin-button-iphone.png in Resources */,
-				C7747406118D49740055BB53 /* iphonesplash.png in Resources */,
 				C7747407118D49740055BB53 /* nowplayingiphonev2.png in Resources */,
+				C7C8F030118D4B50002B79CB /* appicon.png in Resources */,
+				C71654ED118DFEDA00672DF7 /* WorldPlayingViewController.xib in Resources */,
+				C71655BE118E222000672DF7 /* Default.png in Resources */,
+				C71655BF118E222000672DF7 /* mainlogo.png in Resources */,
+				C71655C4118E26E000672DF7 /* mainicon.jpg in Resources */,
+				C71655F8118E2D8E00672DF7 /* world.png in Resources */,
+				C7165626118E318500672DF7 /* star.png in Resources */,
+				C716562A118E32F900672DF7 /* music_icon.png in Resources */,
+				C7165637118E34FF00672DF7 /* account.png in Resources */,
+				C716563D118E365E00672DF7 /* Globe-Icon.png in Resources */,
+				C71656D3118E46DC00672DF7 /* loading_image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +292,8 @@
 				C70A734F118D1D8100FA5E7C /* NowPlayingViewController.m in Sources */,
 				C70A7358118D1DCD00FA5E7C /* CheckinDetailsViewController.m in Sources */,
 				C70A735A118D1DCD00FA5E7C /* SongInfo.m in Sources */,
+				C71654EC118DFEDA00672DF7 /* WorldPlayingViewController.m in Sources */,
+				C71656A1118E407100672DF7 /* ActivityAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

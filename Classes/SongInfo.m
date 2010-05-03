@@ -11,5 +11,5 @@
 
 @implementation SongInfo
 
-@synthesize title, album, albumArt;
+@synthesize title, album, albumArt, artistName;
 @end

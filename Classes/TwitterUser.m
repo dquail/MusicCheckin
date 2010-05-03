@@ -41,6 +41,37 @@
 	[userDefaults release];
 }
 
+- (BOOL) validateUser{
+
+	NSString *url = [NSString stringWithFormat:@"http://%@:%@@api.twitter.com/1/account/verify_credentials.xml",
+					 self.username, self.password ];
+	NSString *escapedUrl = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]; 
+	NSLog(@"%@", escapedUrl);
+	NSMutableURLRequest *theRequest=[NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]
+															cachePolicy:NSURLRequestUseProtocolCachePolicy
+														timeoutInterval:20.0];
+	[theRequest setHTTPMethod:@"GET"];
+	//NSString *bodyUnencoded = [NSString stringWithFormat:@"status=%@", escapedMessage];
+	//NSString *theRequestBody = [bodyUnencoded stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]; 
+	//[theRequest setHTTPBody:[nil dataUsingEncoding:NSASCIIStringEncoding]];
+	//NSLog(@"%@", theRequest);
+	
+	//NSURLResponse *response;
+	NSHTTPURLResponse *response;
+	NSError *error;
+	NSData *result = [NSURLConnection sendSynchronousRequest:theRequest returningResponse:&response error:&error];
+
+	if ([response statusCode]!= 200)
+	{
+		return FALSE;
+	}
+	else {
+		return TRUE;
+	}
+
+	
+	
+}
 
 - (void)encodeWithCoder:(NSCoder *)aCoder {
 	[aCoder encodeObject: self.username forKey: @"username"];

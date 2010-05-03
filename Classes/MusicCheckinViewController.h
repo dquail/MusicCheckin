@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "NowPlayingViewController.h"
-#import "TwitterUser.h"
 
 @interface MusicCheckinViewController : UIViewController {
 	UITextField *twitterUsername;

@@ -11,7 +11,7 @@
 
 @implementation AccountViewController
 
-@synthesize twitterPassword, twitterUsername;
+@synthesize twitterPassword, twitterUsername, alert;
 
 /*
  // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -36,6 +36,19 @@
     [super viewDidLoad];
 	self.navigationController.navigationBarHidden = YES;
 	[twitterUsername becomeFirstResponder];
+	twitterPassword.secureTextEntry = YES;
+	TwitterUser *currentUser = [TwitterUser fromDefaults];
+	if (currentUser)
+	{
+		self.twitterPassword.text = currentUser.password;
+		self.twitterUsername.text = currentUser.username;
+	}
+	else {
+		UIAlertView *welcomeView = [[[UIAlertView alloc] initWithTitle: @"Welcome" message:@"Welcome to Playitlouder.  We need to add your twitter account so we can tweet what your listening.  We're not evil and won't do anything mean." 
+															  delegate: self cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];	
+		[welcomeView show];
+	}
+
 }
 
 
@@ -73,24 +86,26 @@
 	NSLog(@"Password - %@", twitterPassword.text);
 	[twitterUsername resignFirstResponder];
 	[twitterPassword resignFirstResponder];
-	//TODO: Add code to verify and cache twitter creds
-	/*TwitterUser *twitter = [[TwitterUser alloc] init];
-	 twitter.username = self.twitterUsername.text;
-	 twitter.password = self.twitterPassword.text;*/
+	self.alert = [[ActivityAlert alloc] initWithStatus: @"Verifying Account ..."];
+	[self.alert show];
 	TwitterUser *twitter = [[TwitterUser alloc] initWithUsername:self.twitterUsername.text password:self.twitterPassword.text];
+	[self.alert hide];
+	self.alert = nil;
 	NSLog(@"Twitter User: %@", twitter.username);
-	[twitter savetoDefaults];
-	NSLog(@"Twitter name %@ password %@", twitter.username, twitter.password);
-	
-	NowPlayingViewController *nowPlaying = [[NowPlayingViewController alloc] initWithNibName:nil bundle:nil];
-	self.navigationController.navigationBarHidden = NO;
-	nowPlaying.title = @"Now Playing";
+	if ([twitter validateUser])
+	{
+		[twitter savetoDefaults];
+		UIAlertView *welcomeView = [[[UIAlertView alloc] initWithTitle: @"Registration Succeeded" message:@"You've successfully added your twitter account.  You'll now be able to easily let the world know what you're listening to." 
+															  delegate: self cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];	
+		self.tabBarController.selectedIndex = 0;
+		[welcomeView show];
+	}
+	else {
+		UIAlertView *welcomeView = [[[UIAlertView alloc] initWithTitle: @"Registration Failed" message:@"There was an error registering your twitter account.  Please check your password and try again." 
+															  delegate: self cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];	
+		[welcomeView show];
+	}
 
-	[self.navigationController pushViewController:nowPlaying animated:YES];
-	[nowPlaying release];
-	//[self presentModalViewController: mainNav.topViewController animated:YES];
-	NSLog(@"Now playing clicked");
-	
 }
 
 - (void)touchesEnded: (NSSet *)touches withEvent: (UIEvent *)event {
@@ -98,6 +113,11 @@
 		if ([view isKindOfClass:[UITextField class]])
 			[view resignFirstResponder];
 	}
+}
+
+-(void)alertView:(UIAlertView *) alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+	[self dismissModalViewControllerAnimated:YES];	
 }
 
 @end

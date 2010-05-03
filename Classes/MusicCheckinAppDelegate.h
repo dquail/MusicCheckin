@@ -10,12 +10,21 @@
 #import "TwitterUser.h"
 #import "AccountViewController.h"
 #import "NowPlayingViewController.h"
+#import "WorldPlayingViewController.h"
 
 @interface MusicCheckinAppDelegate : NSObject <UIApplicationDelegate> {
 	UIWindow *window;
 	UINavigationController *mainNavigation;
+	UITabBarController *tabBarController;
+	AccountViewController *accountController;
+	NowPlayingViewController *nowPlayingController;
+	WorldPlayingViewController *worldPlayingController;
 }
 
+@property (nonatomic, retain) UITabBarController *tabBarController;
+@property (nonatomic, retain) AccountViewController *accountController;
+@property (nonatomic, retain) NowPlayingViewController *nowPlayingController;
+@property (nonatomic, retain) WorldPlayingViewController *worldPlayingController;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) UINavigationController *mainNavigation;
 

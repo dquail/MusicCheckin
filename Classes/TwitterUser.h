@@ -21,4 +21,5 @@
 - (TwitterUser *) initWithUsername:(NSString *) user password:(NSString *)pass;
 + (TwitterUser *) fromDefaults;
 - (void) savetoDefaults;
+-(BOOL) validateUser;
 @end

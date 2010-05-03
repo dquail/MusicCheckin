@@ -33,7 +33,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	//[twitterUsername becomeFirstResponder];
+	[twitterUsername becomeFirstResponder];
 }
 
 
@@ -72,13 +72,6 @@
 	[twitterUsername resignFirstResponder];
 	[twitterPassword resignFirstResponder];
 	//TODO: Add code to verify and cache twitter creds
-	/*TwitterUser *twitter = [[TwitterUser alloc] init];
-	twitter.username = self.twitterUsername.text;
-	twitter.password = self.twitterPassword.text;*/
-	TwitterUser *twitter = [[TwitterUser alloc] initWithUsername:self.twitterUsername.text password:self.twitterPassword.text];
-	NSLog(@"Twitter User: %@", twitter.username);
-	[twitter savetoDefaults];
-	NSLog(@"Twitter name %@ password %@", twitter.username, twitter.password);
 
 	NowPlayingViewController *nowPlaying = [[NowPlayingViewController alloc] initWithNibName:nil bundle:nil];
 	nowPlaying.title = @"Now Playing";

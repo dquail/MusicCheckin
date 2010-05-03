@@ -12,9 +12,11 @@
 @interface SongInfo : NSObject {
 	NSString *title;
 	NSString *album;
+	NSString *artistName;
 	UIImage *albumArt;
 }
 @property (nonatomic, retain) UIImage *albumArt;
 @property (nonatomic, retain) NSString *album;
 @property (nonatomic, retain) NSString *title;
+@property (nonatomic, retain) NSString *artistName;
 @end
