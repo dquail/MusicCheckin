@@ -74,6 +74,9 @@
 
 
 - (void)dealloc {
+	[twitterUsername release];
+	[twitterPassword release];
+	[alert release];	
     [super dealloc];
 }
 

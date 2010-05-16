@@ -12,4 +12,13 @@
 @implementation SongInfo
 
 @synthesize title, album, albumArt, artistName;
+
+- (void) dealloc
+{
+	[title release];
+	[album release];
+	[artistName release];
+	[albumArt release];	
+	[super dealloc];
+}
 @end

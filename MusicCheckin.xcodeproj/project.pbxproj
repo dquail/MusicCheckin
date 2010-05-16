@@ -41,6 +41,7 @@
 		C77473FD118D478F0055BB53 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77473FC118D478F0055BB53 /* CoreLocation.framework */; };
 		C7747405118D49740055BB53 /* checkin-button-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C7747401118D49740055BB53 /* checkin-button-iphone.png */; };
 		C7747407118D49740055BB53 /* nowplayingiphonev2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7747403118D49740055BB53 /* nowplayingiphonev2.png */; };
+		C79887F011A0886A00F28687 /* music-note.png in Resources */ = {isa = PBXBuildFile; fileRef = C79887EF11A0886A00F28687 /* music-note.png */; };
 		C7C8F030118D4B50002B79CB /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7C8F02F118D4B50002B79CB /* appicon.png */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,7 @@
 		C77473FC118D478F0055BB53 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C7747401118D49740055BB53 /* checkin-button-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkin-button-iphone.png"; path = "images/checkin-button-iphone.png"; sourceTree = "<group>"; };
 		C7747403118D49740055BB53 /* nowplayingiphonev2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nowplayingiphonev2.png; path = images/nowplayingiphonev2.png; sourceTree = "<group>"; };
+		C79887EF11A0886A00F28687 /* music-note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "music-note.png"; path = "images/music-note.png"; sourceTree = "<group>"; };
 		C7C8F02F118D4B50002B79CB /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,6 +193,7 @@
 		C70A735B118D1DD900FA5E7C /* images */ = {
 			isa = PBXGroup;
 			children = (
+				C79887EF11A0886A00F28687 /* music-note.png */,
 				C71656D2118E46DC00672DF7 /* loading_image.png */,
 				C716563C118E365E00672DF7 /* Globe-Icon.png */,
 				C7165636118E34FF00672DF7 /* account.png */,
@@ -275,6 +278,7 @@
 				C7165637118E34FF00672DF7 /* account.png in Resources */,
 				C716563D118E365E00672DF7 /* Globe-Icon.png in Resources */,
 				C71656D3118E46DC00672DF7 /* loading_image.png in Resources */,
+				C79887F011A0886A00F28687 /* music-note.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

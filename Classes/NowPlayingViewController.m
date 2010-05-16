@@ -38,6 +38,7 @@
 		self.checkinButton.enabled = NO;
 		self.artistLabel.text = @"No music Playing";
 		self.titleLabel.text = @"";
+		self.albumArt.image = nil;
 		[welcomeView show];
 	}
 
@@ -50,6 +51,14 @@
 		self.songinfo = [[SongInfo alloc] init];
 		self.musicPlayer = [MPMusicPlayerController iPodMusicPlayer];
 		self.navigationController.navigationBarHidden = YES;
+		TwitterUser *twitterUser = [TwitterUser fromDefaults];
+		if (!twitterUser)
+		{
+			UIAlertView *welcomeView = [[[UIAlertView alloc] initWithTitle: @"No twitter user" message:@"You have to configure your twitter account before you start sharing what you're listening to." 
+																  delegate: self cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];	
+			[welcomeView show];
+
+		}		
     }
     return self;
 }
@@ -97,19 +106,30 @@
 
 
 - (void)dealloc {
+	[artistLabel release];
+	[titleLabel release];
+	[albumArt release];
+	[songinfo release];
+	[musicPlayer release];
+	[mediaItem release];
+	[checkinButton release];	
     [super dealloc];
 }
 
 - (IBAction) handleCheckinButton:(id)sender{
-	//CheckinDetailsViewController *checkInDetails = [[CheckinDetailsViewController alloc] initWithNibName:nil bundle:nil];
+	TwitterUser *twitterUser = [TwitterUser fromDefaults];
+	if (!twitterUser)
+	{
+		UIAlertView *welcomeView = [[[UIAlertView alloc] initWithTitle: @"No twitter user" message:@"You have to configure your twitter account before you start sharing what you're listening to." 
+														  delegate: self cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];	
+		[welcomeView show];	
+	}
+	else {
+		CheckinDetailsViewController *checkInDetails = [[CheckinDetailsViewController alloc] initWithNibName:nil bundle:nil songinfo:self.songinfo];
+		[self presentModalViewController:checkInDetails animated:YES];
+	}
+
 	
-	//Testing the nsdefaults
-	//TwitterUser *tUser = [TwitterUser fromDefaults];
-	//NSLog(@"Returned user from defaults %@", tUser.username);
-	//CheckinDetailsViewController *checkInDetails = [[CheckinDetailsViewController alloc] initWithNibName:nil bundle:nil songinfo:self.songinfo];
-	CheckinDetailsViewController *checkInDetails = [[CheckinDetailsViewController alloc] initWithNibName:nil bundle:nil songinfo:self.songinfo];
-	[self presentModalViewController:checkInDetails animated:YES];
-	//[self.navigationController pushViewController:checkInDetails animated:YES];	
 }
 
 // When the now playing item changes, update song info labels and artwork display.

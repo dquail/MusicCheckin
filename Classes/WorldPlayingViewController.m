@@ -61,6 +61,8 @@
 
 
 - (void)dealloc {
+	[webView release];
+	[alert release];	
     [super dealloc];
 }
 

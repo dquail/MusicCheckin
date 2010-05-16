@@ -53,7 +53,7 @@
 
 		NSString *themessage = [NSString stringWithFormat:@"%@ - %@ #playitloudr. %@",
 								song, artist, checkinTextView.text];
-		NSLog(themessage);
+
 		//TWITTER BLACK MAGIC
 		//NSString *url = [NSString stringWithFormat:@"http://camapitest:yycsux@twitter.com/statuses/update.xml"];
 		NSString *url = [NSString stringWithFormat:@"http://%@:%@@twitter.com/statuses/update.xml", user.username, user.password];
@@ -163,8 +163,20 @@
 
 - (void)dealloc {
 	[checkinTextView release];
+	[countLabel release];	
+	[songinfo release];
+	[checkinTextView release];
+	[artistInfoLabel release];
 	[countLabel release];
-    [super dealloc];
+	[tooLong release];
+	[locationManager release];
+	[currentLocation release];
+	[latitudeString release];
+	[longitudeString release];
+	[waitingImage release];
+	[activityIndicator release];	
+	
+	[super dealloc];
 }
 
 #pragma mark -
